@@ -1,0 +1,8 @@
+#CMax simulation
+import lib601.sig as sig
+import math
+
+lampAngleSignal = sig.ListSignal([-0.5 + (float(i)/300) for i in xrange(300)])
+lampDistanceSignal = sig.ConstantSignal(1./9)
+nSamples = 300
+deltaT = 0.02
