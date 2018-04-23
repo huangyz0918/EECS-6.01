@@ -1,9 +1,0 @@
-Enter the voltages (relative to ground) at the specified locations on the board. Locations are specified by row letter and column number.
-1. Location H 48: 0V
-2. Location C 48: 0V
-3. Location H 45: 2.5V
-4. Location C 45: 0V
-5. Location H 42: 2.5V
-6. Location C 42: 10V
-7. Location H 39: 0V
-8. Location C 39: 0V        
