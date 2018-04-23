@@ -1,0 +1,2 @@
+Numerator: d_2*n_1
+Denominator: d_1*d_2 + n_1*n_2

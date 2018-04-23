@@ -1,0 +1,10 @@
+1. If R1 = R2 = 100 Ohms, for what value of R3 with is1 = is2?
+R3 = 50. Ohms
+
+2. If R1 = 100 Ohms, and R2 = 10,000 Ohms = 10K Ohms, for approximately
+what value of R3 will is1 = is2?
+R3 = 99.00990099
+
+3. If R1 = 100 Ohms, R2 = 1 Ohms, for approximately what value of R3 will
+is1 = is2?
+R3 = 0.9801980198

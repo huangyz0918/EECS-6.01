@@ -1,0 +1,12 @@
+1. Consider the following circuit:
+
+Assume that R1 = R2 = R3 = R4, what is the ratio of Vo/Vs? 1.0
+
+2. Let's replace the part of the circuit including the voltage source
+and R1 and R2 with its Thevenin equivalent (whose output terminals connect
+to R3 and ground).  The resulting circuit is one of these two circuits.:
+
+Which circuit is the correct one?	B
+What is the Thevenin voltage source?	5 Volt
+What is the value of the Tevenin Resistance RT?		500 Ohm
+What is the value of Vo?	1000 Ohm

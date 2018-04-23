@@ -1,0 +1,10 @@
+1. Find V0 in this circuit
+
+V0 = 8
+
+2. Making the ideal op-amp assumption, find R1, R2, and V2 so that:
+V0 = 1 - V1/4
+
+R1 = any (choosing any V1)
+R2 = any
+V2 = any

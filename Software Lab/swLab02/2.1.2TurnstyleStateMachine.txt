@@ -1,0 +1,22 @@
+class Turnstyle1(SM):
+	startState = 'locked'
+	def getNextValues(self,state,inp):
+		if state == 'locked':
+			if inp == 'coin':
+				return(Q1,Q2)
+			else:
+				return(Q3,Q4)
+		else:
+			if inp == 'turn':
+				return (Q5,Q6)
+			else: return(Q7,Q8)
+
+I think the format is (state,output)
+1. What should string Q1 be?	unlocked
+2. What should string Q2 be?	enter
+3. What should string Q3 be?	locked
+4. What should string Q4 be?	pay
+5. What should string Q5 be?	locked
+6. What should string Q6 be?	pay
+7. What should string Q7 be?	unlocked
+8. What should string Q8 be?	enter

@@ -1,0 +1,10 @@
+1. Location a: 	None
+2. Location b:	D
+3. Location c:	C
+4. Location d:	E
+5. Location e:	None
+6. Location f:	None
+7. Location g:	B
+8. Location h:	A
+9. Location i:	None
+A,B,C,D,E or None

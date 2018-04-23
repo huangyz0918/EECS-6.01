@@ -1,0 +1,33 @@
+1. What sequence of paths are pushed on the agenda by breadth-first
+search without dynamic programming:
+	1. A
+	2. A B
+	3. A C
+	4. A B C
+	5. A B D
+	6. A B E
+	7. A C B
+	8. A C D
+	9. A C F
+	10. A B C D
+	11. A B C F
+	12. A B D C
+	13. A B D E
+	14. A B D F
+	
+	Final path is: A B E G
+	
+2. What sequence of paths are pushed on the agenda by breadth-first
+search with dynamic programming.
+
+	Pruning Rule 3. Don't consider any path that visits a state that
+	you have already visited via some other path
+	
+	1.	A
+	2.	A B
+	3.	A C
+	4.	A B D
+	5.	A B E
+	6.	A C F
+
+	Final path is: A B E G

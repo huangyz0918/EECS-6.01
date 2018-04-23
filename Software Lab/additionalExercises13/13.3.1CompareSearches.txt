@@ -1,0 +1,9 @@
+I am somewhat confused by the statement:
+successors will be pushed onto the agenda in REVERSE alphabetical order
+does that mean you follow the c path before the b path?
+I will assume yes
+
+1. What path will be found by breadth-first search:
+A C F
+2. What path will be found by depth-first search:
+A C F

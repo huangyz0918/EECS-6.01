@@ -1,0 +1,26 @@
+# LTISM(dCoeffs, cCoeffs, previousInputs, previousOutputs)
+# dCoeffs is a list of coefficients d0-dj
+# cCoeffs is a list of coefficients c0-ck-1
+# previousInputs is a list of x[-1] through x[-j]
+# previousOutputs is a list of y[-1] through y[-k]
+
+# 1. A state machine whose output at time n is the sum of its inputs up to
+# and including time n.  Assume y[-1] = 10.
+
+# The sum should self update, so we only need to add the state at time n-1
+# plus the input at state n to get state n
+
+y[n] = y[n-1]+x[n]
+LTISM([1],[1],[],[10])
+
+# 2. A state machine whose output at time n is the sum of its inputs up
+# to and including time n-1.  Assume y[-1] = 10 and x[-1] = 0
+
+y[n] = y[n-1] + x[n-1]
+LTISM([0,1],[1],[0],[10])
+
+# 3. A state machine whose output at time n is the sum of its input up to
+# and including time n-1, each scaled by 0.1.  Assume y[-1] = 1, x[-1]=0
+
+y[n] = y[n-1] + 0.1x[n-1]
+LTISM([0,0.1],[1],[1],[0]

@@ -1,0 +1,18 @@
+Part 1: Thevenin
+
+1. Consider the following circuit:
+VT = 20
+RT = 2
+
+Part 2: Thevenin
+
+1.  This problem concerns the equivalent circuits for the following
+one-port circuit, viewed from the port labelled V and I.
+
+Isc = 7. Amps
+
+Determine the Thevenin equivalent voltage if Rx = 3 Ohms.
+Vth = 5.25 Volts
+
+Determine Rx so that the Thevenin equivalent voltage is 4Volts.
+Rx = 0.5 Volts

@@ -1,0 +1,30 @@
+1. What is the best description of this machine:
+It counts forward and backward mod 4, and has a reset input
+0 is forwards, 1 is backwards, 2 is reset.
+
+2. If you feed this string of inputs into the machine, what would
+the sting of outputs be?  Enter the output produced by the indicated
+input in the sequence below.
+
+initial state is 0
+input 0, output 1
+input 0, output 2
+input 2, output 0
+input 0, output 1
+input 0, output 2
+input 0, output 3
+input 1, output 2
+input 1, output 1
+input 1, output 0
+
+3. What string of inputs could you feed in, in order to get this
+string of outputs?  Enter the input that would produce the indicated
+output in the sequence below.
+
+initial state is 0
+input 1, output 3
+input 1, output 2
+input 2, output 0
+input 0, output 1
+input 0, output 2
+input 0, output 3

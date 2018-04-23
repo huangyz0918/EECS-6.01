@@ -1,0 +1,20 @@
+Part 1: Op Amps
+Vout = Vin(Rf+Ri)/Ri
+Vo = 10 - Vin
+
+If Vi = 4, then Vo = 6
+If Vi = 8, then Vo = 2
+If Vi = 10, then Vo = 0
+
+Part 2: Op Amps
+
+Determine the current Ix when V1 = 1 Volts and V2 = 2 Volts
+0.5 Amps
+
+Determine the voltage Va when V1 = 1 Volts and V2 = 2 Volts
+2.5 Amps
+
+Determine a general expression for Va in terms of V1 and V2.  Enter
+the coefficients as decimal numbers:
+
+Va = -1.5*V1 + 1.5*V2

@@ -1,0 +1,4 @@
+Vout = -(Rc/Ra*V1 + Rc/Rb*V2)
+R_a = 500
+R_b = 333
+R_c = 1000

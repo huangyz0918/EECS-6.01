@@ -1,0 +1,17 @@
+an impossible action, or one that would lead to an illegal state results
+in leaving the machine state unchanged.
+
+1. From the initial state ('L','L','L','L'), what would be the output of
+sm.transduce(['takeGoat'])?
+
+[('R','R','L','L')]
+
+2. From the initial state, what would be the output of 
+sm.transduce(['takeNone','takeGoat'])?
+
+[('L','L','L','L'),('R','R','L','L')]
+
+3. From the initial state, what would be the output of
+sm.transduce(['takeGoat','takeNone','takeNone'])?
+
+[('R','R','L','L'),('L','R','L','L'),('R','R','L','L')]

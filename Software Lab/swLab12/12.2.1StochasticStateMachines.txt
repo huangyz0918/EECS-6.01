@@ -1,0 +1,30 @@
+Part 1: Distributions
+
+Consider a universe with two random variables Disease and Test that we explored
+in Software Lab 10.  The questions below refer to the Python representations that
+we have worked with in that lab.
+
+1. How do we represent P(Disease='disease')?	number
+2. How do we represent P(Disease)?				DDist
+3. How do we represent P(Disease='disease',Test='posTest')?	number
+4. How do we represent P(Disease | Test)?		procedure
+5. How do we represent P(Disease | Test = 'posTest')?	DDist
+
+Part 2: SSM
+
+Let m be an instance of the StochasticStateMachine class.  If s,x and y are
+states, i is an input and o is an observation?
+
+1. What is the type of: m.startDistribution?		DDist
+2. What is the type of: m.startDistribution.prob(s)?	number
+3. What is the type of: m.observationDistribution?	procedure
+4. What is the type of: m.observationDistribution(s)?	DDist
+5. What is the type of: m.observationDistribution(s).prob(o)?	number
+6. What is the type of: m.observationDistribution.prob?	error
+7. What is the type of: m.transitionDistribution(i)?	procedure
+8. What is the type of: m.transitionDistribution(i)(y)?	DDist
+9. What is the type of: m.transitionDistribution(i)(y).prob(x)?	number
+10. Write a Python expression whose value represents P(Ot=o|St=s).
+m.observationDistribution(s).prob(o)
+11. Write a Python expression whose value represents P(St+1=x|St=y,It=i)
+m.transitionDistribution(i)(y).prob(x)
