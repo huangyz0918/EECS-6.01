@@ -1,0 +1,24 @@
+Part 1: Equations
+
+Indicate which of the following equations could be produced by steps 4
+and 5 of the NVCC method.  Note that the equations must be consistent
+with the directions of the current arrows that are shown in the diagram
+
+2. -i1 - i2 = 0
+6. i2 - i3 - i4 = 0
+12. n1 - n3 = 36
+10. n2 - n1 = 6i2
+17. n2 - n3 = 3i3
+20. n2 - n3 = 2i4
+21. n3 = 0
+
+Part 2: Solution
+
+Solve the equations for the unknowns:
+1.	i1 = 7.5
+2.	i2 = -7.5
+3.	i3 = -3
+4.	i4 = -4.5
+5.	n1 = 36
+6.	n2 = -9
+7.	n3 = 0

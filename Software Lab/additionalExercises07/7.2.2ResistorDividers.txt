@@ -1,0 +1,40 @@
+Part 1: Unloaded
+
+The circuit is basically in the text book and can be described using
+the following equation:
+Vs=RB/(RA+RB)Vo
+
+1. For a given set of values for R1 and R2 is increased, will the voltage
+Vo increase or decrease?
+decrease
+
+2. If R1 = 100 Ohm and R2 = 10,000 Ohm, approximately what is the ratio
+Vo/Vs?
+1.01
+
+3. If R1 = 10,000 Ohm and R2 = 100 Ohm, approximately what is the ratio
+Vo/Vs?
+101
+
+4. If Vo = 1/5Vs what is the ratio R1/R2?
+4/5
+
+Part 2: Loaded
+
+This is in the book too
+Vs = VoR2/(R1+R2+R1R2/R3)
+
+1. If R3 has a very high value, say 100,000 Ohm, how does the new value
+of Vo compare to the value of Vd (defined above)?  Enter the approximate
+value of Vo/Vd. (Enter a number with two digits to the right of the decimal point)
+1.01
+
+2. If R3 has a very low value, say 10 Ohm, how does the new value of Vo
+compare to the original value Vd?  Enter the approximate numerical value
+of Vo/Vd.  (Enter a number with two digits to the right of the decimal
+point)
+51.00
+
+3. If R1 = R2 = R3, how does the new value of Vo compare to the original
+value of Vd?  Enter the approximate numerical value of Vo/Vd.
+1.50
