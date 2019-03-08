@@ -7,7 +7,7 @@ My assignments to *Introduction to Electrical Engineering and Computer Science I
 
 ## Notes
 
-I like this course very much and I also spent the whole term to finish it last year. I think we're not the best grop but luckly we got the highest score eventually, thanks for my teacher Mr. Fang and Mr. Whang and your lots of English vibes. :heart: 
+I like this course very much and I also spent the whole term to finish it last year. I think we're not the best grop but luckly we got the highest score eventually, thanks for my teacher Mr. Fang and Mr. Vong and your lots of English vibes. :heart: 
 
 
 
